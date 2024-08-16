@@ -33,7 +33,7 @@ def grid_update(grid):
                 grid[(i-1)%grid.shape[0], (j+1)%grid.shape[1]], 
                 grid[(i+1)%grid.shape[0], (j-1)%grid.shape[1]], 
                 grid[(i+1)%grid.shape[0], (j+1)%grid.shape[1]]  
-            ])
+                ])
               
 
             # Conway's rule
